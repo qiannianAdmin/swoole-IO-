@@ -1,0 +1,17 @@
+{
+    "name": "qiannian/io",
+    "description": "io",
+    "type": "library",
+    "authors": [
+        {
+            "name": "qiannian",
+            "email": "qiannian_admin@163.com"
+        }
+    ],
+    "autoload":{
+	   "psr-4":{
+		    "Qiannian\\Io\\":"./src/"
+		}
+	},
+    "require": {}
+}
