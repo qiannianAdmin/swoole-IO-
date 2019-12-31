@@ -47,7 +47,7 @@
                         echo 1111;
                         $this->createSocket();
                     }else{
-                        $this->receive($socket);
+                        //$this->receive($socket);
                         echo 2222;
                     }
                 }
@@ -67,7 +67,7 @@
 
             if($data == '' || $data == false){
 
-                unset($this->sockets[(int)$client]);
+                //unset($this->sockets[(int)$client]);
                 return null;
             }
             if(is_callable($this->onReceive)){
